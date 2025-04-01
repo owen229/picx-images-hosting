@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 - 圓角矩形 -->
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="#4A86E8"/>
+  
+  <!-- 名片疊層效果 -->
+  <rect x="136" y="196" width="280" height="180" rx="10" fill="#FFFFFF" transform="rotate(-8 136 196)"/>
+  <rect x="126" y="186" width="280" height="180" rx="10" fill="#F5F5F5" transform="rotate(-4 126 186)"/>
+  <rect x="116" y="176" width="280" height="180" rx="10" fill="#FFFFFF"/>
+  
+  <!-- 名片上的線條 - 模擬文字 -->
+  <rect x="156" y="206" width="120" height="20" rx="4" fill="#333333"/>
+  <rect x="156" y="246" width="200" height="8" rx="4" fill="#999999"/>
+  <rect x="156" y="270" width="200" height="8" rx="4" fill="#999999"/>
+  <rect x="156" y="294" width="100" height="8" rx="4" fill="#999999"/>
+  
+  <!-- 頭像占位符 -->
+  <circle cx="326" cy="226" r="30" fill="#4A86E8"/>
+  <path d="M326 256 C312 256 301 245 301 231 C301 217 312 206 326 206 C340 206 351 217 351 231 C351 245 340 256 326 256 Z" fill="#FFFFFF"/>
+  <path d="M351 286 C351 270 340 256 326 256 C312 256 301 270 301 286" stroke="#FFFFFF" stroke-width="10" fill="none"/>
+</svg>
